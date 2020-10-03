@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.schedule {
+  width: 800px;
+}
+h2 {
+  text-align: center;
+  color: #211afa;
+}
+.Information {
+  display: grid;
+  grid-template-columns: 400px 350px;
+  color: #527bf5;
+}
+.n1 {
+  text-align: right;
+}
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 10px;
+}
+.day {
+  background-color: yellow;
+}
+.sub {
+  background-color: #fac91a;
+}
